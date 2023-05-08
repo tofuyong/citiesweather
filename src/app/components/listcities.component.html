@@ -1,0 +1,8 @@
+<button type="button" [routerLink]="['addcity']">+</button>
+<table>
+    <tr *ngFor="let c of cities">
+        <a [routerLink]="['details', c]">
+            <td>{{ c }}</td>
+        </a>
+    </tr> 
+</table>

@@ -1,0 +1,8 @@
+<div *ngIf="weatherDetails">
+    <p><b>{{ weatherDetails.name }}</b></p>
+    <p>{{ weatherDetails.description }}</p>
+    <p>{{ weatherDetails.humidity }}%</p>
+    <p>{{ weatherDetails.temperature }} deg C</p>
+</div>
+
+<button type="button" routerLink="['/']">Go back</button>
